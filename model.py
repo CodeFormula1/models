@@ -291,7 +291,7 @@ elif page == "Monte Carlo Simulation":
     import random
     import itertools
     import numpy as np
-    import matplotlib.pyplot as plt
+    # import matplotlib.pyplot as plt
 
     # Create a Streamlit app
     # st.title("Monte Carlo Simulation")
