@@ -150,7 +150,7 @@ if page == "Home":
     # st.subheader("Home Page")
 
     # Define the path to your local video file (replace 'your_video_filename.mp4' with your actual file)
-    video_path = "https://raw.githubusercontent.com/CodeFormula1/models/main/VECTOR.mp4"
+    video_path = "https://github.com/CodeFormula1/models/raw/main/VECTOR.mp4"
 
 
     # Check if the video file exists in the specified path
