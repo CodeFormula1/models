@@ -132,8 +132,8 @@
 
 import streamlit as st
 # import seaborn as sns
-import matplotlib.pyplot as plt
-import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
+# import matplotlib.pyplot as plt
+# import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
 import os
 
 # Streamlit app title
