@@ -164,14 +164,14 @@ if page == "Home":
 if page == "Home":
     # Set the background image of the home page
     st.markdown(
-        """
+        f"""
         <style>
-            body {
+            body {{
                 background-image: url('./code_wavey.jpg');
                 background-size: cover;
                 background-position: center;
                 color: white; /* Set text color to white for better visibility on a dark background */
-            }
+            }}
         </style>
         """,
         unsafe_allow_html=True
