@@ -198,7 +198,7 @@ elif page == "Data Analysis":
             import seaborn as sns
             import matplotlib.pyplot as plt
             import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
-            import os
+            # import os
             import pandas as pd
 
 
@@ -306,7 +306,7 @@ elif page == "Monte Carlo Simulation":
     # Add your Monte Carlo Simulation code here
 
 
-    import streamlit as st
+    # import streamlit as st
     import random
     import itertools
     import numpy as np
