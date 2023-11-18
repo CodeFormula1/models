@@ -131,10 +131,13 @@
 
 
 import streamlit as st
-# import seaborn as sns
-# import matplotlib.pyplot as plt
-# import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
+import seaborn as sns
+import matplotlib.pyplot as plt
+import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
 import os
+import random
+import itertools
+import numpy as np
 
 # Streamlit app title
 st.title("Vector Sport Laps Analysis")
@@ -194,12 +197,12 @@ elif page == "Data Analysis":
 
     if csv_file is not None:
             st.write("File uploaded successfully!")
-            import streamlit as st
-            # import seaborn as sns
-            # import matplotlib.pyplot as plt
-            import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
-            # import os
-            # import pandas as pd
+            # import streamlit as st
+            # # import seaborn as sns
+            # # import matplotlib.pyplot as plt
+            # import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
+            # # import os
+            # # import pandas as pd
 
 
             data_load_state = st.text('Loading data...')
@@ -307,9 +310,9 @@ elif page == "Monte Carlo Simulation":
 
 
     # import streamlit as st
-    import random
-    import itertools
-    import numpy as np
+    # import random
+    # import itertools
+    # import numpy as np
     # import matplotlib.pyplot as plt
 
     # Create a Streamlit app
