@@ -197,6 +197,13 @@ elif page == "Data Analysis":
             st.write("File uploaded successfully!")
             import streamlit as st
             # import seaborn as sns
+            # Install Seaborn if not already installed
+            try:
+                import seaborn as sns
+            except ImportError:
+                st.warning("Seaborn not found. Installing...")
+                st.system("pip install seaborn")
+                st.success("Seaborn has been successfully installed.")
             # import matplotlib.pyplot as plt
             # import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
             # import os
