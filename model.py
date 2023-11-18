@@ -131,9 +131,9 @@
 
 
 import streamlit as st
-import seaborn as sns
-import matplotlib.pyplot as plt
-import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+# import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
 import os
 
 
@@ -195,12 +195,12 @@ elif page == "Data Analysis":
 
     if csv_file is not None:
             st.write("File uploaded successfully!")
-            # import streamlit as st
-            # # import seaborn as sns
-            # # import matplotlib.pyplot as plt
-            # import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
-            # # import os
-            # # import pandas as pd
+            import streamlit as st
+            import seaborn as sns
+            import matplotlib.pyplot as plt
+            import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
+            # import os
+            import pandas as pd
 
 
             data_load_state = st.text('Loading data...')
