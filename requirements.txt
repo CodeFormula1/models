@@ -1,0 +1,5 @@
+streamlit==1.28.2  # Replace with the specific version you want
+pandas==2.1.3     # Replace with the specific version you want, if applicable
+matplotlib==3.8.2  # Replace with the specific version you want, if applicable
+seaborn==0.13.0
+statsmodels==0.14.0
