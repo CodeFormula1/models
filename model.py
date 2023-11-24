@@ -3,8 +3,12 @@ import subprocess
 subprocess.call(['pip', 'install', 'seaborn'])
 
 import streamlit as st
-
+import pandas as pd
 import os
+import statsmodels.api as sm  # Import the statsmodels library for lowess smoothing
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 
 # Streamlit app title
 st.title("Vector Sport Laps Analysis")
