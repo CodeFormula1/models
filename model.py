@@ -1,8 +1,3 @@
-import subprocess
-
-subprocess.call(['pip', 'install', '-r', 'requirements.txt'])
-
-
 import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
